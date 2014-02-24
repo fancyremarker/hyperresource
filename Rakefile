@@ -1,6 +1,8 @@
 require 'rake/testtask'
 require './lib/hyper_resource/version'
 
+require 'bundler/gem_tasks'
+
 task :default => [:test]
 
 Rake::TestTask.new do |t|
