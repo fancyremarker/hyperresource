@@ -39,6 +39,7 @@ class LiveTestServer < Sinatra::Base
         "_embedded": {
           "widgets": [
             { "name": "Widget 1",
+              "type": "Widget",
               "_links": {
                 "curies": [{
                   "name": "whatever",
