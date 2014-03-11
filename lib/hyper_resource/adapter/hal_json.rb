@@ -63,7 +63,7 @@ class HyperResource
             end
           end
 
-          objs._hr_create_methods!
+          # objs._hr_create_methods!
         end
 
         def classify(resp, rsrc)
@@ -106,7 +106,7 @@ class HyperResource
             end
           end
 
-          links._hr_create_methods!
+          # links._hr_create_methods!
         end
 
         def new_link_from_spec(resource, link_spec)
@@ -125,7 +125,7 @@ class HyperResource
           end
 
           rsrc.attributes._hr_clear_changed
-          rsrc.attributes._hr_create_methods!
+          # rsrc.attributes._hr_create_methods!
         end
 
       end

@@ -46,7 +46,7 @@ unless !!ENV['NO_LIVE']
 
         it 'follows links' do
           root = @api.get
-          root.links.must_respond_to :widgets
+          # root.links.must_respond_to :widgets
           widgets = root.widgets.get
           widgets.must_be_kind_of HyperResource
           widgets.must_be_instance_of WhateverAPI::WidgetSet
