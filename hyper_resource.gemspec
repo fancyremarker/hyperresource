@@ -1,7 +1,7 @@
 require './lib/hyper_resource/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'hyperresource'
+  s.name     = 'hyperresource-aptible'
   s.version  = HyperResource::VERSION
   s.date     = HyperResource::VERSION_DATE
 
@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
     returned from these APIs to optionally be extended by client-side code,
     and to present a modern replacement for ActiveResource.
   EOT
-  s.homepage = 'https://github.com/gamache/hyperresource'
-  s.authors  = ['Pete Gamache']
-  s.email    = 'pete@gamache.org'
+  s.homepage = 'https://github.com/fancyremarker/hyperresource'
+  s.authors  = ['Frank Macreery']
+  s.email    = 'frank@macreery.com'
 
   s.files    = Dir['lib/**/*']
   s.license  = 'MIT'
